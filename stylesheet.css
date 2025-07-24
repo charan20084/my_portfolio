@@ -1,0 +1,145 @@
+*{
+    font-family: monospace;
+}
+body{
+    margin: 0;
+    font-size: 15px;
+    background-color: #f0f8ff;
+}
+
+
+header{
+      height:100vh;
+      background-color: #2196F3;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.button{
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    
+    
+    
+    
+}
+.button:hover{
+    background-color: darkblue;
+    color: white;
+}
+img{
+    height:200px;
+}
+main{
+    padding: 20px;
+}
+h1{
+    color: #2196F3;
+    font-size: 50px;
+    text-align: center;
+}
+header h1{
+    color:white;
+    margin: 0;
+    text-align: center;
+
+}
+section{
+    height:100vh;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+ol li{
+    font-size: 20px;
+}
+section div p{
+    text-align: left;
+}
+form div{
+   
+    margin: 5px 0;
+}
+.submit{
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: #2196F3;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover{
+
+    background-color: #1178cd;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+   
+    
+    
+}
+.fixedbutton:hover{
+    background-color: #1178cd;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 124px;
+    color: white;
+}
+.socialicons a{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        padding: 50px 0 ;
+    }
+    button{
+        margin: 20px;
+    }
+  }
+  
